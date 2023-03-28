@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>eurosignal</title>
+<script src="eurosignal.js" type="text/javascript"></script>
+</head>
+<body>
+<H1>Eurosignal generator</H1><br>
+<label for="mynumber">My number</label><input type="number" id="mynumber" name="mynumber" min="100000" max="899999" value="526462"><br>
+<label for="volume">Traffic</label><input type="range" id="traffic" name="traffic" min="0" max="100" value="25"><br>
+<label for="volume">Volume</label><input type="range" id="volume" name="volume" min="0" max="10" value="5"><br>
+<button type="button" onclick="start()">start</button><button type="button" onclick="stop()">stop</button><br>
+<br>
+<textarea id="pad" name="pad" rows="30" cols="8" style="overflow:scroll;"></textarea>
+</body>
+</html>
